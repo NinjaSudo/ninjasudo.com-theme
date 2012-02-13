@@ -11,8 +11,8 @@ $("head").append("<link>");
 <section>
 <header id="main">
 <div id="header">
-  <div id="title">Commentary by Wes</div>
-  <div id="subtitle">Ramblings about programming, chess, languages, etc.</div>
+  <div id="title">Ninja Sudo</div>
+  <div id="subtitle">Hacking, philosophy, and more</div>
 </div>
 </header>
 </section>
