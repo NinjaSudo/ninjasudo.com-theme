@@ -55,11 +55,16 @@ div#header {
 
 @shadow: inset 0px 3px 5px 0px #000;
 div#container {
+  margin: 0px auto;
   padding-top: 10px;
   -moz-box-shadow: @shadow;
   -webkit-box-shadow: @shadow;
   box-shadow: @shadow;
   width: 80%;
+}
+
+div#content {
+  float: left;
 }
 
 div#articles {
@@ -68,6 +73,7 @@ div#articles {
 }
 
 div#sidebar {
+  float: right;
   margin: 10px auto;
   width: 20%;
 }

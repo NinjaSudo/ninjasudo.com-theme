@@ -17,8 +17,10 @@ $("head").append("<link>");
 </header>
 </section>
 <div id="container">
-	<div id="articles"></div>
+	<div id="content">
+		<div id="articles"></div>
+	</div>
 	<div id="sidebar">
-	
+		
 	</div>
 </div>
