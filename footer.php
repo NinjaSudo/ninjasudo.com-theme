@@ -7,7 +7,7 @@ $(".gist").before("<link>");
     css.attr({
       rel:  "stylesheet",
       type: "text/css",
-      href: "http://wes.skeweredrook.com/mp-content/themes/wes.skeweredrook.com-theme/css/style.css"
+      href: "http://test.ninjasudo.com/mp-content/themes/ninjasudo.com-theme/css/style.css"
     });
 //$("span.update-time").each(function() { 
  // var updateTime = new Date(+$(this).text());
