@@ -19,6 +19,6 @@ $("head").append("<link>");
 <div id="container">
 	<div id="articles"></div>
 	<div id="sidebar">
-		
+	
 	</div>
 </div>
