@@ -22,6 +22,7 @@ foreach($objects as $object) {
   echo '  <a href="'.$mp_options['root_url'].$this_objects_slug.'/">Read more...</a>';
   echo '</article>'."\n";
 }
+get_template_part("sidebar");
 get_template_part("footer");
 mp_get_footer(); // Without this, the clouds will fall from the sky...
 ?>
