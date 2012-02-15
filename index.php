@@ -1,7 +1,7 @@
 <?php
 mp_get_header(); // Without this, the clouds will fall from the sky...
 $mp = mongopress_load_mp(); $mp_options = $mp->options();
-$mp_perma = mongopress_load_perma(); 
+$mp_perma = mongopress_load_perma();
 get_template_part('header');
 $object_format = array(
      'order_by' => 'created',

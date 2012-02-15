@@ -9,7 +9,7 @@ get_template_part("header");
 mp_content($object_format);
 echo '<div id="disqus_thread"></div>';
 echo '<script type="text/javascript">';
-echo 'var disqus_shortname = "commentarybywes";';
+echo 'var disqus_shortname = "ninjasudo";';
 echo '(function() {';
 echo "var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;";
 echo "dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';";
