@@ -47,6 +47,15 @@
   -webkit-border-bottom-right-radius: @radius;
 }
 
+.rounded-top-corners (@radius: 5px) {
+  border-top-left-radius: @radius;
+  border-top-right-radius: @radius;
+  -moz-border-radius-topright: @radius;
+  -moz-border-radius-topleft: @radius;
+  -webkit-border-top-left-radius: @radius;
+  -webkit-border-top-right-radius: @radius;
+}
+
 body {
   background-color: @bgcolor;
   a:link, a:visited, a:hover {
@@ -69,6 +78,7 @@ ul {
 }
 
 div#header {
+  .rounded-top-corners;
   width: 80%;
   margin: 0px auto;
   background-color: @headerbg;
@@ -106,14 +116,15 @@ div#title {
 
 div#container {
   margin: 0px auto;
-  padding-top: 10px;
   width: 80%;
+  height: 100%;
 }
 
 div#content {
-  .boxshadow;
-  width: 80%;
+  .boxshadow;  
   float: left;
+  padding-top: 10px;
+  width: 100%;
 }
 
 div#articles {
@@ -131,7 +142,7 @@ article {
   font-weight: normal;
   font-size: 13pt;
   color: @lightyellow * .7;
-  padding: 5px;
+  padding: 10px;
   header {
     font-size: 10pt;
     padding-bottom: 10px;

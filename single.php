@@ -17,7 +17,6 @@ echo "(document.getElementsByTagName('head')[0] || document.getElementsByTagName
 echo '})();';
 echo '</script>';
 echo '<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>';
-get_template_part("sidebar");
 get_template_part("footer");
 mp_get_footer(); // Without this, the clouds will fall from the sky...
 ?>
