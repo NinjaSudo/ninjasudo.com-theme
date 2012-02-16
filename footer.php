@@ -17,3 +17,10 @@ $(".gist").before("<link>");
 </div>
 </div>
 </div>
+<footer>
+	<div id="footer">
+		<div id="copyright">
+			<p>Ninja Sudo&copy; 2012.</p>
+		</div>
+	</div>
+</footer>

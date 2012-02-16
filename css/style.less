@@ -77,31 +77,46 @@ ul {
   }
 }
 
-div#header {
-  .rounded-top-corners;
+.top-bottom {
   width: 80%;
   margin: 0px auto;
   background-color: @headerbg;
-  background-image: url('../assets/crouch-ninja.png');
-  background-position: right;
-  background-origin: padding-box;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  -webkit-background-clip: content-box;
-}
-
-div#title {
   font-family: Droid Serif, serif;
   color: @titlecolor;
   padding: 5px;
-  padding-left: 20px;
-  //text-align: center;
   text-shadow: -1px 1px 1px #000;
+}
+
+div#header {
+  .rounded-top-corners;
+  .top-bottom;
+  //background-image: url('../assets/crouch-ninja.png');
+  //background-position: right;
+  //background-origin: padding-box;
+  //background-repeat: no-repeat;
+  //background-clip: padding-box;
+  //-webkit-background-clip: content-box;
+}
+
+div#title {
+  padding-left: 20px;
   h1 {
   	font-family: AsianGuy, Droid Serif, serif;
   	font-size: 48pt;
   }
   h5 {
+  	font-family: KoreanCalligraphy, Droid Serif, serif;
+    font-size: 14pt;
+  }
+}
+
+div#footer {
+  .rounded-top-corners;
+  .top-bottom;
+}
+
+div#copyright {
+  p {
   	font-family: KoreanCalligraphy, Droid Serif, serif;
     font-size: 14pt;
   }
