@@ -14,6 +14,11 @@
 @darkblue: #669991; //maybe for code highlight
 @codebg: #191919;
 
+@font-face {
+  font-family: AsianGuy;
+  src: url(‘../fonts/AsianGuy.ttf’);
+}
+
 body {
   background-color: @bgcolor;
   a:link, a:visited, a:hover {
@@ -39,12 +44,13 @@ div#header {
   background-color: @headerbg; 
   font-family: Droid Serif, serif;
   color: @titlecolor;
-  padding: 5px;
+  //padding: 5px;
   text-align: center;
   margin: 0px auto;
   text-shadow: -1px 1px 1px #000; 
   width: 80%;
   div#title {
+  	font-family: AsianGuy, Droid Serif, serif
     font-size: 48pt;
   }
   div#subtitle {
@@ -64,11 +70,13 @@ div#container {
 }
 
 div#content {
+  -moz-box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+  box-shadow: @shadow;
   float: left;
 }
 
 div#articles {
-  margin: 0px auto;
   width: 80%;
 }
 

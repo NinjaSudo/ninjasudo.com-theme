@@ -17,4 +17,5 @@ $("head").append("<link>");
 </header>
 </section>
 <div id="container">
-	<div id="articles">
+	<div id="content">
+		<div id="articles">
