@@ -15,7 +15,7 @@ $("head").append("<link>");
 			<h1>Ninja Sudo</h1>
 			<h5>Hacking, philosophy, and more</h5>
 		</div>
-		<img src="../assets/ninja_crouch.png" alt="Crouching ninja" />
+		<img src="../assets/ninja_crouch.png" alt="Crouching Ninja" />
 	</div>
 </header>
 </section>
