@@ -9,10 +9,13 @@ $("head").append("<link>");
     });
 </script>
 <section>
-<header id="main">
-	<div id="title">
-		<h1>Ninja Sudo</h1>
-		<h5>Hacking, philosophy, and more</h5>
+<header>
+	<div id="header">
+		<div id="title">
+			<h1>Ninja Sudo</h1>
+			<h5>Hacking, philosophy, and more</h5>
+		</div>
+		<img src="../assets/ninja_crouch.png" alt="Crouching ninja" />
 	</div>
 </header>
 </section>
