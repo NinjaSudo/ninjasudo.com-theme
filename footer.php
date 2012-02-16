@@ -16,4 +16,3 @@ $(".gist").before("<link>");
 </script>
 </div>
 </div>
-</div>
