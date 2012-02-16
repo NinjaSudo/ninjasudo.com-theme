@@ -92,6 +92,12 @@ div#title {
 }
 
 @shadow: inset 0px 3px 5px 0px @headerbg;
+.boxshadow {
+  -moz-box-shadow: @shadow;
+  -webkit-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
 div#container {
   margin: 0px auto;
   padding-top: 10px;
@@ -99,9 +105,7 @@ div#container {
 }
 
 div#content {
-  -moz-box-shadow: @shadow;
-  -webkit-box-shadow: @shadow;
-  box-shadow: @shadow;
+  .boxshadow;
   width: 80%;
   float: left;
 }
@@ -111,6 +115,7 @@ div#articles {
 }
 
 div#sidebar {
+  .boxshadow;
   float: right;
   margin: 10px auto;
   width: 20%;
