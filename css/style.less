@@ -14,9 +14,16 @@
 @darkblue: #669991; //maybe for code highlight
 @codebg: #191919;
 
+
+/* embedding some fonts */
 .font-face {
   font-family: AsianGuy;
   src: url(../fonts/AsianGuy.ttf);
+}
+
+.font-face {
+  font-family: KoreanCalligraphy;
+  src: url(../fonts/Korean_Calligraphy.ttf);
 }
 
 .box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
@@ -61,14 +68,17 @@ ul {
 }
 
 
+header {
+  margin: 0px auto;
+  background-color: @headerbg;
+}
+
 div#title {
   float: left;
-  background-color: @headerbg; 
   font-family: Droid Serif, serif;
   color: @titlecolor;
-  //padding: 5px;
+  padding: 5px;
   text-align: center;
-  margin: 0px auto;
   text-shadow: -1px 1px 1px #000; 
   width: 80%;
   h1 {
@@ -76,6 +86,7 @@ div#title {
   	font-size: 48pt;
   }
   h5 {
+  	font-family: KoreanCalligraphy, Droid Serif, serif;
     font-weight: bold;
     font-size: 14pt;
   }

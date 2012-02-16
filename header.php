@@ -9,11 +9,11 @@ $("head").append("<link>");
     });
 </script>
 <section>
-<header id="main">
-<div id="title">
-  <h1>Ninja Sudo</h1>
-  <h5>Hacking, philosophy, and more</h5>
-</div>
+<header>
+	<div id="title">
+		<h1>Ninja Sudo</h1>
+		<h5>Hacking, philosophy, and more</h5>
+	</div>
 </header>
 </section>
 <div id="container">
