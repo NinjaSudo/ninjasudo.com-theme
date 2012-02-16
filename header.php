@@ -10,9 +10,9 @@ $("head").append("<link>");
 </script>
 <section>
 <header id="main">
-<div id="header">
-  <div id="title">Ninja Sudo</div>
-  <div id="subtitle">Hacking, philosophy, and more</div>
+<div id="title">
+  <h1>Ninja Sudo</h1>
+  <h5>Hacking, philosophy, and more</h5>
 </div>
 </header>
 </section>

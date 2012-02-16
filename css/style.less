@@ -19,6 +19,27 @@
   src: url(‘../fonts/AsianGuy.ttf’);
 }
 
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.rounded-bottom-corners (@radius: 5px) {
+  border-bottom-left-radius: @radius;
+  border-bottom-right-radius: @radius;
+  -moz-border-radius-bottomright: @radius;
+  -moz-border-radius-bottomleft: @radius;
+  -webkit-border-bottom-left-radius: @radius;
+  -webkit-border-bottom-right-radius: @radius;
+}
+
 body {
   background-color: @bgcolor;
   a:link, a:visited, a:hover {
@@ -40,7 +61,8 @@ ul {
 }
 
 
-div#header {
+div#title {
+  float: left;
   background-color: @headerbg; 
   font-family: Droid Serif, serif;
   color: @titlecolor;
@@ -49,11 +71,10 @@ div#header {
   margin: 0px auto;
   text-shadow: -1px 1px 1px #000; 
   width: 80%;
-  div#title {
+  h1 {
   	font-family: AsianGuy, Droid Serif, serif
-    font-size: 48pt;
   }
-  div#subtitle {
+  h5 {
     font-weight: bold;
     font-size: 14pt;
   }
@@ -63,9 +84,6 @@ div#header {
 div#container {
   margin: 0px auto;
   padding-top: 10px;
-  -moz-box-shadow: @shadow;
-  -webkit-box-shadow: @shadow;
-  box-shadow: @shadow;
   width: 80%;
 }
 
