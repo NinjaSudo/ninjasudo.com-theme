@@ -7,7 +7,7 @@ $object_format = array(
 );
 get_template_part("header");
 mp_content($object_format);
-echo '<div id="disqus_thread"></div>';
+echo '<div id="disqus_thread redux"></div>';
 echo '<script type="text/javascript">';
 echo 'var disqus_shortname = "ninjasudo";';
 echo '(function() {';
