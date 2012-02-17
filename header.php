@@ -12,7 +12,7 @@ $("head").append("<link>");
 <header>
 	<div id="header">
 		<div id="title">
-			<h1>Ninja Sudo</h1>
+			<h1><a href="http://www.ninjasudo.com/">Ninja Sudo</a></h1>
 			<h5>Hacking, philosophy, and more</h5>
 		</div>
 	</div>
